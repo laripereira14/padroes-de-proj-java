@@ -1,0 +1,33 @@
+Questão 1: Uma das fontes de informação acerca do clima são as boias meteorológicas de alto
+mar, que emitem sinais para alguns satélites, e estes enviam as informações para um receptor
+em terra, de forma codificada. De uma forma simples, temos uma cadeia de caracteres, onde
+as letras iniciais definem um evento, seguido de parâmetros que podem ser numéricos ou
+literais, em quantidades e tamanhos diversos, obedecendo a padronização para cada tipo de
+evento.
+Qual padrão de desenvolvimento seria indicado para o decodificador do sistema?
+A) Template Method
+B) Abstract Factory
+C) Memento
+D) Interpreter
+E) Chain of Responsibility
+
+RESPOSTA: D
+
+Questão 2: Os frameworks se tornaram muito comuns na área de desenvolvimento, onde no Java temos
+exemplos como Spring, Struts e Hibernate. Eles definem um arcabouço com todas as funcionalidades
+comuns para determinado domínio de problemas, mas permitem ao desenvolvedor especializar a
+implementação original, para satisfazer aos requisitos apresentados pelo sistema. Na construção do
+framework, um padrão de desenvolvimento muito utilizado é o Template Method.
+Qual é a afirmação correta acerca do Template Method?
+A) O padrão define um algoritmo dividido em vários passos, onde alguns desses passos são a implementação
+da parte comum, enquanto outros são lacunas a serem preenchidas pelo desenvolvedor.
+B) Para que o padrão possa ser adotado, o princípio da orientação a objetos que deve ser utilizado é o da
+agregação, segundo um relacionamento todo-parte.
+C) Permite apenas uma derivação do processo original, já que uma das condições impostas pelo padrão é a
+existência de apenas uma instância da classe em todo o ambiente de execução.
+D) Trabalha com uma sequência de filtros, por onde uma dada requisição deverá passar, efetuando
+modificação específicas em cada filtro utilizado.
+E) Exige a utilização de comunicação remota, a qual pode ser feita de uma forma transparente para o
+desenvolvedor, com base em Stubs e Skeletons
+
+RESPOSTA: A
