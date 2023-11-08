@@ -1,0 +1,28 @@
+Questão 1: Uma abordagem comum para o acesso ao banco de dados, nos sistemas atuais, é a
+concentração das operações com uso de SQL (Structured Query Language) em uma classe do
+tipo DAO (Data Access Object), que deve se comunicar com o restante do sistema através de
+entidades ou coleções delas.
+Qual padrão GRASP se mostra predominante nesse contexto?
+A) Polimorfismo
+B) Especialista na Informação
+C) Controlador
+D) Criador
+E) Acoplamento Fraco
+
+RESPOSTA: B
+
+
+Questão 2: Alocação de memória é um dos processos mais caros para a execução de sistemas, exigindo
+muitas operações envolvendo a CPU e o barramento. Saber onde criar os objetos, para que tenhamos
+maior visibilidade e menor número de instâncias, pode ser um fator decisivo na eficiência do sistema, e
+o padrão Criador, do GRASP, define boas práticas no que tange ao assunto.
+Qual a opção correta acerca do padrão de desenvolvimento Criador?
+A) Um dos fatores para escolha do criador é o fato da classe geradora conter as informações
+necessárias para inicialização das instâncias geradas.
+B) Tem como objetivo garantir baixo acoplamento entre as classes.
+C) Em termos de orientação a objetos, baseiase no princípio do polimorfismo.
+D) Atribui ao objeto a responsabilidade de mediar diálogos entre componentes.
+E) Precisa ser definido através de classes abstratas, já que a criação propriamente dita será delegada
+ara o sistema operacional.
+
+RESPOSTA: B
