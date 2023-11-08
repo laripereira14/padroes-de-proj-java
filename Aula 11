@@ -1,0 +1,27 @@
+Questão 1: Um dos ferramentais mais interessantes da orientação a objetos é a herança, pois
+permite alto reuso estrutural, diminuindo de forma considerável o tempo utilizado no
+desenvolvimento de um sistema. Apesar de oferecer uma grande vantagem em termos de reuso,
+a criação de uma grande hierarquia de classes pode dificultar ações de manutenção, pois
+qualquer modificação repercute em todos os descendentes.
+Qual padrão do GRASP estaria sendo violado nessa situação?
+A) Coesão Alta
+B) Especialista na Informação
+C) Controlador
+D) Criador
+E) Acoplamento Fraco
+
+RESPOSTA: A
+
+Questão 2: Um código bem escrito é sempre mais fácil de manter, pois a semântica adequada facilita a
+compreensão das entidades e dos processos que atuam sobre elas. Utilizar nomes compreensíveis,
+manter os objetos focados em seus reais objetivos e definir um ambiente facilmente gerenciável, estão
+entre os muitos elementos que podem ser utilizados para melhorar a semântica e facilitar o uso dos
+objetos.
+Qual padrão do GRASP demonstra esse tipo de preocupação?
+A) Acoplamento Baixo
+B) Especialista na Informação
+C) Polimorfismo
+D) Coesão Alta
+E) Controlador
+
+RESPOSTA: E
