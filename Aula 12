@@ -1,0 +1,24 @@
+Questão 1: A orientação a objetos tem uma característica adaptativa muito forte, baseada na
+alteração funcional de métodos herdados, sem modificação de assinaturas, para que os
+descendentes possam ser utilizados em um novo contexto de forma automática.
+Qual padrão do GRASP se baseia nessa característica?
+A) Acoplamento Baixo
+B) Coesão Alta
+C) Polimorfismo
+D) Criador
+E) Especialista na Informação
+
+RESPOSTA: C
+
+Questão 2: Nem sempre é fácil garantir acoplamento baixo e alta coesão. Por exemplo, em um
+sistema para controle de vendas, teríamos a definição do Especialista na Informação com base na
+classe Venda, já que ela detém os dados necessários, mas isso poderia trazer uma dependência
+dos componentes JDBC.
+Como o padrão Invenção Pura seria utilizado para resolver esse problema?
+A) Utilizando o polimorfismo e acrescentando a persistência no descendente.
+B) Eliminando o uso de JDBC e adotando listas em memória.
+C) Movendo o uso do JDBC para objetos no padrão Criador.
+D) Deixando os métodos de persistência privados.
+E) Definindo uma classe de persistência genéric
+
+RESPOSTA: A
